@@ -22,7 +22,14 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'sensible-wp' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-    	<div class="grid grid-pad head-overflow">
+		
+		<!-- TELEFONE EM CIMA DO MENU -->
+		<div class="grid head-overflow">
+			<div class="telefone-menu">futurus@sercomtel.com.br <br> 43 3321-9136 / 9941-0002</div>
+		</div>
+		<!-- ************************ -->
+    	
+    	<div class="grid grid-pad head-overflow menu-principal">
 			<div class="site-branding">
 				
 				<?php if ( get_theme_mod( 'sensiblewp_logo' ) ) : ?>

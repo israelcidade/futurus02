@@ -1873,3 +1873,21 @@ body {
 	
 }
 
+/* 
+	Feito por Mr.Bulb
+*/
+.telefone-menu{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	color: white;
+	font-family: inherit;
+	font-style: inherit;
+  	font-weight: inherit;
+  	font-size: 100%;
+}
+
+.menu-principal{
+	padding-top: 0px;
+}
+
