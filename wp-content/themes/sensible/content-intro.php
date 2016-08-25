@@ -23,6 +23,16 @@
                 		
 						<?php endif; ?>
 
+                        <!-- VIDEO INSTITUCIONAL DA EMPRESA -->
+                        <div class="video-empresa">
+
+                        <iframe title="YouTube video player" class="youtube-player" type="text/html" 
+                        width="640" height="390" src="https://www.youtube.com/embed/Pgmkdr74yr0"
+                        frameborder="0" allowFullScreen></iframe>
+
+                        </div>
+                        <!-- ****************************** -->
+
                 	</div><!-- col-1-1 --> 
         		</div><!-- grid -->
         	</div><!-- home-content -->
