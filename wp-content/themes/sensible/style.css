@@ -97,6 +97,13 @@ and Blueprint http://www.blueprintcss.org/
 /*--------------------------------------------------------------
 1.0 Reset
 --------------------------------------------------------------*/
+
+/*
+Cores Padrao
+Roxo: #6672b3;
+Azul: #7cc8f1;
+
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -943,7 +950,7 @@ a:active {
 }
 .home-services h6, .home-content h6, .home-news h6, .home-team h6, .footer-contact h6 {
 	background: url("img/h1-bg.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
-    color: #353535;
+    color: #6672b3;
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
