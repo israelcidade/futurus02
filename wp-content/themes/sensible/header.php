@@ -25,7 +25,10 @@
 		
 		<!-- TELEFONE EM CIMA DO MENU -->
 		<div class="grid head-overflow">
-			<div class="telefone-menu">futurus@sercomtel.com.br <br> 43 3321-9136 / 9941-0002</div>
+			<div class="telefone-menu">
+				<p>futurus@sercomtel.com.br</p>
+				<p>43 3321-9136 / 9941-0002</p>
+			</div>
 		</div>
 		<!-- ************************ -->
     	

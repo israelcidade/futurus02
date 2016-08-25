@@ -1880,11 +1880,17 @@ body {
 	float: right;
 	padding-right: 20px;
 	padding-top: 10px;
+}
+
+.telefone-menu p{
+	margin: 0;
+	padding: 0;
 	color: white;
 	font-family: inherit;
 	font-style: inherit;
-  	font-weight: inherit;
+  	font-weight: 600;
   	font-size: 100%;
+  	text-align: right;
 }
 
 .menu-principal{
