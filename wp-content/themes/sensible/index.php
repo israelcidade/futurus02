@@ -16,12 +16,14 @@ get_header(); ?>
 	<?php if ( get_theme_mod( 'sensiblewp_blog_bg' ) ) : ?>
     	<header class="entry-header blog-archive-header-bg" data-speed="8" data-type="background" style="background: url('<?php echo esc_url(get_theme_mod( 'sensiblewp_blog_bg' )); ?>') 50% 0 no-repeat fixed;">
     <?php else : ?> 
-        <header class="entry-header">
+        <header style="background-color: #fff" class="entry-header">
 	<?php endif; ?> 
           
     		<div class="grid grid-pad">
         		<div class="col-1-1">
-					<h1 class="entry-title"><?php echo esc_html( get_theme_mod( 'sensiblewp_blog_title', __( 'Blog', 'sensible-wp' ) )) ?></h1>
+        			<div class="titulo-header">
+						<h1 class="entry-title"><?php echo esc_html( get_theme_mod( 'sensiblewp_blog_title', __( 'Blog', 'sensible-wp' ) )) ?></h1>
+        			</div>
         		</div><!-- col-1-1 -->
         	</div><!-- grid -->
 		</header><!-- .entry-header -->

@@ -102,6 +102,7 @@ and Blueprint http://www.blueprintcss.org/
 Cores Padrao
 Roxo: #6672b3;
 Azul: #7cc8f1;
+Azul BIC: #0000CD;
 
 */
 html, body, div, span, applet, object, iframe,
@@ -831,6 +832,7 @@ a:active {
 	color: #fff;
 	margin-bottom: 40px;
 	padding-top: 30px;
+	/* text-shadow: 2px 2px 2px #6672b3; */
 }
 .social-bar {
 	background: #fff;
@@ -950,7 +952,7 @@ a:active {
 }
 .home-services h6, .home-content h6, .home-news h6, .home-team h6, .footer-contact h6 {
 	background: url("img/h1-bg.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
-    color: #6672b3;
+    color: #0000CD;
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -1029,7 +1031,7 @@ a:active {
 }
 .site-footer {
 	font-weight: 400;
-	background: #242830;
+	background: #0000CD;
 	padding: 20px 0 40px;
 	color: #fff;
 }
@@ -1885,7 +1887,7 @@ body {
 .telefone-menu p{
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: #0000CD;
 	font-family: inherit;
 	font-style: inherit;
   	font-weight: 600;
@@ -1899,4 +1901,36 @@ body {
 
 .video-empresa{
 	padding-top: 20px;
+}
+
+.link-ferramenta a:visited{
+	color: #0000CD;
+}
+
+.mapa-futurus{
+	z-index: 999;
+}
+
+.servicos-fa{
+	
+}
+
+.servico-item{
+	text-align: center;
+}
+
+.main-navigation a {
+	color: #0000cd;
+}
+
+.main-navigation li:hover > a, a:hover {
+  color: #fff;
+}
+
+.entry-header{
+	color: #fff;
+}
+
+.titulo-header{
+	padding-top: 40px;
 }

@@ -26,8 +26,10 @@
 		<!-- TELEFONE EM CIMA DO MENU -->
 		<div class="grid head-overflow">
 			<div class="telefone-menu">
-				<p>futurus@sercomtel.com.br</p>
-				<p>43 3321-9136 / 9941-0002</p>
+				<!-- <p>futurus@sercomtel.com.br</p> -->
+				<p class="telefone-header">43 3321-9136
+				<a target="_blank" href="http://facebook.com.br/FuturusContabilidade"><img align="center" height="50px" width="50px" src="<?php echo esc_url( home_url( '/wp-content/uploads/2016/09/facebook_47004-150x150.png' ) ); ?>"> </a>
+				</p>
 			</div>
 		</div>
 		<!-- ************************ -->

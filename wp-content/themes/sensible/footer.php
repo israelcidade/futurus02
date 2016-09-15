@@ -131,14 +131,21 @@
     					  
 						<?php endif; ?>  
             		  
+
             		</div><!-- footer-block -->
     			</div><!-- col-1-3 -->
                 
     	</div><!-- grid -->
+        
     </div><!-- footer-contact --> 
-    
-    <?php endif; ?> 
-	
+
+    <!-- MAPA GOOGLE
+        <div class="mapa-futurus">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.1047756073935!2d-51.14386268537536!3d-23.31195698480728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb4379488b554d%3A0x940f8b8873765fcf!2sAv.+Theodoro+Victorelli%2C+769+-+Jardim+Morumbi%2C+Londrina+-+PR!5e0!3m2!1spt-BR!2sbr!4v1473366301943" scrollwheel="false" width="100%" height="440" frameborder="0" style="border:0;" allowfullscreen></iframe>
+         </div>
+    <!-- MAPA GOOGLE --> 
+        
+    <?php endif; ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
     	<div class="grid grid-pad">
@@ -153,6 +160,8 @@
 	</footer><!-- #colophon -->
 
 </div><!-- #page --> 
+
+
 
 <?php wp_footer(); ?>
 

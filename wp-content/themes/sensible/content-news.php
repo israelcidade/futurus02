@@ -49,6 +49,15 @@
 					<?php endforeach; ?>
                     
         		</div><!-- grid -->
+
+                <!-- FEITO POR Mr.Bulb -->
+                <a href="<?php echo esc_url( home_url( '/noticias' ) ); ?>" class="featured-link"> 
+                <button class="wow animated fadeInUp delay animated" style="visibility: visible; animation-name: fadeInUp; -webkit-animation-name: fadeInUp;">
+                    Notícias
+                </button>
+                </a>
+                <!-- ************* -->
+
         	</div><!-- home-news -->
             
             
@@ -64,6 +73,9 @@ else echo esc_url( home_url() );?>">
                             </a>  
         				</div><!-- col-1-1 -->
             		</div><!-- grid -->
+
+
         		</div><!-- home-blog-cta -->
             
 			<?php endif; ?>
+

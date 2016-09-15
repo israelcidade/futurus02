@@ -15,7 +15,7 @@
                 
                 			<?php if ( get_theme_mod( 'home_widget_icon' ) ) : ?>
                             
-                				<i class="fa <?php echo esc_html( get_theme_mod( 'home_widget_icon' )); ?>"></i>
+                				<i style="background: transparent;" class="fa <?php echo esc_html( get_theme_mod( 'home_widget_icon' )); ?>"></i>
                                 
 							<?php endif; ?> 
                     
