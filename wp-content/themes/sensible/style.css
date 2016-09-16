@@ -1934,3 +1934,7 @@ body {
 .titulo-header{
 	padding-top: 40px;
 }
+
+.slideshowlink {
+    display: none;
+}

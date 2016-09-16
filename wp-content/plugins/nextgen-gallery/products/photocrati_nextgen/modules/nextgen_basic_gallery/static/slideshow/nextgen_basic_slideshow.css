@@ -12,9 +12,11 @@ body {
     margin-right: auto;
     text-align: center;
     outline: none;
+    display: none;
 }
 
 .slideshowlink {
+    display: none;
 }
 
 /* ----------- JS Slideshow -------------*/
