@@ -55,7 +55,7 @@ get_header(); ?>
 			<?php if($titulo == 20) { ?>
 			<div class="grid grid-pad no-top">
 
-					<div class="col-1-5 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+					<div class="col-1-6 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
     					<div class="servico-item service sbox-1">
 	                       <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/societaria' ) ); ?>" > <i class="servicos-fa fa fa-street-view"></i> </a>
 	                        <h5 class="link-ferramenta">
@@ -64,7 +64,7 @@ get_header(); ?>
   						</div><!-- service --> 
 					</div><!-- col-1-3 --> 
 
-					<div class="col-1-5  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+					<div class="col-1-6 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
     					<div class="servico-item service sbox-1">
 	                        <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/trabalhista' ) ); ?>"><i class="servicos-fa fa fa-users"></i></a>
 	                        <h5 class="link-ferramenta">
@@ -73,7 +73,7 @@ get_header(); ?>
   						</div><!-- service --> 
 					</div><!-- col-1-3 --> 
 
-					<div class="col-1-5  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+					<div class="col-1-6  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
     					<div class="servico-item service sbox-1">
 	                        <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/fiscal' ) ); ?>" ><i class="servicos-fa fa fa-calculator"></i><a/>
 	                        <h5 class="link-ferramenta">
@@ -82,7 +82,7 @@ get_header(); ?>
   						</div><!-- service --> 
 					</div><!-- col-1-3 --> 
 
-					<div class="col-1-5  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+					<div class="col-1-6  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
     					<div class="servico-item service sbox-1">
 	                        <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/contabil' ) ); ?>" ><i class="servicos-fa fa fa-balance-scale"></i></a>
 	                        <h5 class="link-ferramenta">
@@ -91,7 +91,16 @@ get_header(); ?>
   						</div><!-- service --> 
 					</div><!-- col-1-3 --> 
 
-					<div class="col-1-5 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+					<div class="col-1-6  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+    					<div class="servico-item service sbox-1">
+	                        <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/pessoa-fisica' ) ); ?>" ><i class="servicos-fa fa fa-user"></i></a>
+	                        <h5 class="link-ferramenta">
+	                          <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/pessoa-fisica' ) ); ?>" >Pessoa Física</a>
+	                        </h5>    
+  						</div><!-- service --> 
+					</div><!-- col-1-3 --> 
+
+					<div class="col-1-6 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
     					<div class="servico-item service sbox-1">
 	                        <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/gestao-de-condominio' ) ); ?>" ><i class="servicos-fa fa fa-building"></i></a>
 	                        <h5 class="link-ferramenta">
