@@ -1,0 +1,225 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Easy SMTP Mail"
+msgstr ""
+
+#. Short description.
+msgid "Easy SMTP Plugin help you to send Emails from your WordPress Blog using your preferred SMTP Server."
+msgstr ""
+
+#. Screenshot description.
+msgid "Configure SMTP Settings."
+msgstr ""
+
+#. Screenshot description.
+msgid "Help and support."
+msgstr ""
+
+#. Found in description header.
+msgid "General Settings"
+msgstr ""
+
+#. Found in description header.
+msgid "Test Mail Utility"
+msgstr ""
+
+#. Found in description list item.
+msgid "From Email Address: The email address that was sending emails to users."
+msgstr ""
+
+#. Found in description list item.
+msgid "From Name: Specify your name which you want to show in the Email Headers."
+msgstr ""
+
+#. Found in description list item.
+msgid "SMTP Host: Your outgoing mail server (example: smtp.gmail.com)"
+msgstr ""
+
+#. Found in description list item.
+msgid "SMTP Port: The port that will be used to relay outbound mail to your mail server (example: 465).In case of TLS encryption use port 587 for gmail server."
+msgstr ""
+
+#. Found in description list item.
+msgid "SMTP Authentication: Yes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Encryption : SSL / TLS. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Username: Enter your mail server username."
+msgstr ""
+
+#. Found in description list item.
+msgid "Password: Enter password you use to login to the mail server."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Webriti SMTP Mail can help us to send emails via SMTP instead of the PHP mail() function. It adds a settings page to \"Dashboard\"-&gt;\"Settings\"-&gt;\"Webriti SMTP Email\" where you can configure the email settings."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin reconfigure's the wp_mail() function to send SMTP Mails. But you have to make sure that leaving Smtp Host name blank will not reconfigure the WordPress wp_mail() function."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"The Practical use of this plugins comes when theme have a contact page, which on submit, shows you the successful message, but, still admin did not receive any email, here comes this smtp plugin which will makes your contact form workable. = Make sure that you are using the php version 5.6.0 plus. =\n"
+"With the help of this you can make themes contact form or widget workable."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Webriti Smtp Mail Plugin has following settings.</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The general settings section consists of the following options"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With this utility you can always check weither you have configured your SMTP Mail Server details correctly or not."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload to your <code>/wp-contents/plugins/</code> directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress and Enjoy."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option Panel revamped."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SMTP common error codes and suggestions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added TLS encryption mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reply to field is now corrected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SSL Turn off/on option added in option settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small bug fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Tab adding for Free wordPress Themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Formatting not fixed in 1.0.2 is now set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Proper formatting of readme.txt file is done."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Desctipin Text."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easy Smtp Mail Plugin Released"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"@Version 1.7\n"
+"1. validate text fields in plugin option panel.\n"
+"@Version 1.6\n"
+"Removed TGMPA\n"
+"@Version 1.5.4\n"
+"1. Recommended soem more plugins."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"@Version 1.5.3\n"
+"remove debug mode errros."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Typo fixed."
+msgstr ""
+
+#. Found in faq header.
+msgid "How to use gmail  as your smtp server in SSL encryption mode?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to use gmail in TLS mode?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the difference between SSL and TLS types of encryption's?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Which is more secure – SSL or TLS?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Smtp Host smtp.gmail.com"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Smtp Port usually 465."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Username: Your gmail username."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Password: Your gmail password."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Encryption : SSL"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Smtp Port usually 587."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Encryption : TLS"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For  using Gmail Smtp Server with this plugin then set the following details"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"TLS (Transport Layer Security) and SSL (Secure Sockets Layer) are protocols that provide data encryption and authentication between applications and servers in scenarios where that data is being sent across an insecure network, such as checking your email. \n"
+"The terms SSL and TLS are often used interchangeably or in conjunction with each other (TLS/SSL), but one is in fact the predecessor of the other — SSL 3.0 served as the basis for TLS 1.0 which, as a result, is sometimes referred to as SSL 3.1."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"It used to be believed that TLS v1.0 was marginally more secure than SSL v3.0, its predecessor.<br />\n"
+"However, SSL v3.0 is getting very old and recent developments, such as the POODLE vulnerability have shown that SSL v3.0 is now completely insecure (especially for web sites using it).\n"
+"<a href=\"https://luxsci.com/blog/ssl-versus-tls-whats-the-difference.html\" title=\"ssl vs tls\">Read More</a>."
+msgstr ""

@@ -31,12 +31,12 @@
                         <?php if( get_theme_mod( 'active_service_1' ) == '') : ?>
                         
                         	<?php if ( get_theme_mod( 'service_icon_1' ) ) : ?>
-                				<a class="link-ferramenta" href="http://sitecontabil.com.br/certidoes.htm" target="_blank"><i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_1' )); ?>"></i></a>
+                				<a class="link-ferramenta" href="<?php echo esc_url( home_url( '/societaria' ) ); ?>" ><i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_1' )); ?>"></i></a>
                             <?php endif; ?> 
                             
                             <?php if ( get_theme_mod( 'service_title_1' ) ) : ?>
               					<h5 class="link-ferramenta">
-                          <a class="link-ferramenta" href="http://sitecontabil.com.br/certidoes.htm" target="_blank"><?php echo wp_kses_post( get_theme_mod( 'service_title_1' )); ?></a>
+                          <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/societaria' ) ); ?>" ><?php echo wp_kses_post( get_theme_mod( 'service_title_1' )); ?></a>
                         </h5>
                             <?php endif; ?> 
                             
@@ -55,12 +55,12 @@
                         <?php if( get_theme_mod( 'active_service_2' ) == '') : ?>
                         
                         	<?php if ( get_theme_mod( 'service_icon_2' ) ) : ?>
-                				<a class="link-ferramenta" href="http://sitecontabil.com.br/consultas/calculos.html" target="_blank"><i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_2' )); ?>"></i></a>
+                				<a class="link-ferramenta" href="<?php echo esc_url( home_url( '/trabalhista' ) ); ?>" ><i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_2' )); ?>"></i></a>
                             <?php endif; ?> 
                             
                             <?php if ( get_theme_mod( 'service_title_2' ) ) : ?>
               					<h5 class="link-ferramenta">
-                          <a class="link-ferramenta" href="http://sitecontabil.com.br/consultas/calculos.html" target="_blank"><?php echo wp_kses_post( get_theme_mod( 'service_title_2' )); ?></a>
+                          <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/trabalhista' ) ); ?>" ><?php echo wp_kses_post( get_theme_mod( 'service_title_2' )); ?></a>
                         </h5>
                             <?php endif; ?> 
                             
@@ -79,12 +79,12 @@
                          <?php if( get_theme_mod( 'active_service_3' ) == '') : ?>
                         
                         	<?php if ( get_theme_mod( 'service_icon_3' ) ) : ?>
-                				<a href="http://sitecontabil.com.br/facilitador.htm" target="_blank"><i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_3' )); ?>"></i></a>
+                				<a href="<?php echo esc_url( home_url( '/fiscal' ) ); ?>" ><i class="fa <?php echo esc_html( get_theme_mod( 'service_icon_3' )); ?>"></i></a>
                             <?php endif; ?> 
                             
                             <?php if ( get_theme_mod( 'service_title_3' ) ) : ?>
               					<h5 class="link-ferramenta">
-                          <a class="link-ferramenta" href="http://sitecontabil.com.br/facilitador.htm" target="_blank"><?php echo wp_kses_post( get_theme_mod( 'service_title_3' )); ?></a>
+                          <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/fiscal' ) ); ?>"><?php echo wp_kses_post( get_theme_mod( 'service_title_3' )); ?></a>
                         </h5>
                             <?php endif; ?> 
                             
@@ -98,7 +98,7 @@
 					</div><!-- col-1-3 --> 
 
           <!-- Feito por Mr. Bulb-->
-           <div class="col-1-5  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+           <div class="col-1-6  wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
                 <div class="servico-item service sbox-1">
                             <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/contabil' ) ); ?>" ><i class="servicos-fa fa fa-balance-scale"></i></a>
                             <h5 class="link-ferramenta">
@@ -107,7 +107,16 @@
                 </div><!-- service --> 
             </div><!-- col-1-3 --> 
 
-            <div class="col-1-5 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+            <div class="col-1-6 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
+                <div class="servico-item service sbox-1">
+                            <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/pessoa-fisica' ) ); ?>" ><i class="servicos-fa fa fa-user"></i></a>
+                            <h5 class="link-ferramenta">
+                              <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/pessoa-fisica' ) ); ?>" >Pessoa Física</a>
+                            </h5>    
+                </div><!-- service --> 
+            </div><!-- col-1-3 --> 
+
+            <div class="col-1-6 wow animated fadeIn animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; -webkit-animation-delay: 0.25s; animation-name: fadeIn; -webkit-animation-name: fadeIn;"> 
                 <div class="servico-item service sbox-1">
                             <a class="link-ferramenta" href="<?php echo esc_url( home_url( '/gestao-de-condominio' ) ); ?>" ><i class="servicos-fa fa fa-building"></i></a>
                             <h5 class="link-ferramenta">
