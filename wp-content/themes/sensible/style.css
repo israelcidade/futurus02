@@ -829,10 +829,13 @@ a:active {
 	font-weight: 400px;
 	font-size: 62px;
 	line-height: 64px;
-	color: #000;
+	color: #fff;
 	margin-bottom: 40px;
 	padding-top: 30px;
-	/* text-shadow: 2px 2px 2px #6672b3; */
+	/*border: 3px; 
+	border-style:solid; 
+	border-color:#fff;*/
+	
 }
 .social-bar {
 	background: #fff;
@@ -994,6 +997,7 @@ a:active {
 	padding: 100px 0 130px;
 	color: #fff;
 	text-align: center;
+
 }
 .home-cta p {
 	color: #fff;
@@ -1887,7 +1891,7 @@ body {
 .telefone-menu p{
 	margin: 0;
 	padding: 0;
-	color: #000;
+	color: #fff;
 	font-family: inherit;
 	font-style: inherit;
   	font-weight: 600;
@@ -1920,11 +1924,11 @@ body {
 }
 
 .main-navigation a {
-	color: #000;
+	color: #fff;
 }
 
 .main-navigation li:hover > a, a:hover {
-  color: #fff;
+  color: #000;
 }
 
 .entry-header{
