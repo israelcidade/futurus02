@@ -16,8 +16,10 @@ get_header(); ?>
                             <span>
                             
                             <?php if ( get_theme_mod( 'sensiblewp_first_heading' ) ) : ?>
-                            
-               					<h2 class="animated fadeInDown delay"><?php echo esc_textarea( get_theme_mod( 'sensiblewp_first_heading')) ?></h2> 
+                                
+                                <?php $texto_principal = get_theme_mod( 'sensiblewp_first_heading'); ?>
+                                <?php $aux =  explode('|', $texto_principal)?>
+               					<h2 class="animated fadeInDown delay"><?php echo esc_textarea( $aux[0]) ?> <br> <?php echo $aux[1]?></h2>
                                 
 							<?php endif; ?> 
                             
