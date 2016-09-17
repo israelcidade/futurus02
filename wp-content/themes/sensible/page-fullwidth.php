@@ -162,3 +162,16 @@ get_header(); ?>
 	</div><!-- grid -->
 
 <?php get_footer(); ?>
+
+<script type="text/javascript">
+	jQuery( document ).ready(function(){
+		//Troca cor do Menu
+		jQuery(".main-navigation > .menu-menu-principal-container > ul > li > a").css('color','#000');
+
+		//Troca cor do Telefone
+		jQuery('.telefone-menu > p').css('color', '#000');
+
+		//Troca a logo pra preto
+		jQuery('.site-logo > a > img').prop('src', 'http://www.futuruscontabil.com.br/wp-content/uploads/2016/09/logo.png');
+	});
+</script>
