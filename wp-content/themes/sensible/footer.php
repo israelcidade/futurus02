@@ -151,7 +151,15 @@
     	<div class="grid grid-pad">
 			<div class="site-info col-1-1">
 				<?php if ( get_theme_mod( 'sensiblewp_footerid' ) ) : ?> 
-        			<?php echo wp_kses_post( get_theme_mod( 'sensiblewp_footerid' )); // footer id ?>
+                    <div class="rodape">
+                        <div class="rodape-left">
+        			         <?php echo wp_kses_post( get_theme_mod( 'sensiblewp_footerid' )); // footer id ?>
+                        </div>
+                        <div class="rodape-right">
+                          <a href="http://www.mrbulb.com.br" target="_blank"><img src="<?php echo esc_url( home_url( '/wp-content/uploads/2016/09/Logo-04-final.png' ) ); ?>"></a>
+                        </div>
+                    </div>
+
 				<?php else : ?>  
     				<?php printf( __( 'Theme: %1$s by %2$s', 'sensible-wp' ), 'Sensible', '<a href="http://modernthemes.net" rel="designer">modernthemes.net</a>' ); ?>
 				<?php endif; ?>

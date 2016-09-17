@@ -1942,3 +1942,27 @@ body {
 .slideshowlink {
     display: none;
 }
+
+.rodape{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.rodape-left{
+	float: left;
+	margin-top: 4%;
+}
+
+.rodape-right{
+	float: right;
+}
+
+.rodape-right img{
+	height: 120px;
+	width: 80px;
+}
+
+#colophon{
+	padding: 0px;
+}
