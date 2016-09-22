@@ -27,7 +27,7 @@ get_header(); ?>
                     </div>
                </div>
                <div>
-                    <img src="<?php echo esc_url(home_url('/wp-content/uploads/2016/09/empresaria-slider.jpg')); ?>">
+                    <img src="<?php echo esc_url(home_url('/wp-content/uploads/2016/09/empresaria-slider-min.jpg')); ?>">
                     <div class="texto-center">
                         <h2 class="animated fadeInDown delay"><?php echo esc_textarea( $aux[0]) ?> <br> <?php echo $aux[1]?></h2>
                         <div class="texto-center-button">
